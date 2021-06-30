@@ -1,0 +1,81 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Cascadia code",
+    // "terminal.integrated.fontFamily": "Dank Mono, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 26,
+    "editor.fontLigatures": true,
+    "editor.snippetSuggestions": "top",
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "zenMode.fullScreen": false,
+    "zenMode.hideTabs": false,
+    "editor.minimap.enabled": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000C1D",
+        "activityBar.border": "#102a44",
+        "sideBar.background": "#001122",
+        "sideBar.border": "#102a44",
+        "sideBar.foreground": "#8BADC1"
+    },
+    "typescript.preferences.quoteStyle": "single",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.autoClosingQuotes": "never",
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.alwaysShowStatus": true,
+    // "eslint.enable": true,
+    "eslint.run": "onSave",
+    "javascript.format.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    // "[vue]": {
+    //     "editor.defaultFormatter": "hikerpig.vetur"
+    // },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // "vetur.useWorkspaceDependencies": true,
+    "files.eol": "\n",
+    "editor.mouseWheelZoom": true,
+    // "workbench.colorTheme": "Monokai",
+    "vsicons.dontShowNewVersionMessage": true,
+    "json.maxItemsComputed": 10000,
+    "comments.openPanel": "openOnSessionStartWithComments",
+    //advanced new file
+    "advancedNewFile.exclude": {
+        "node_modules": true,
+        "node_modules_electron": true,
+        "dev": true,
+        "dist": true
+    },
+    "advancedNewFile.showInformationMessages": true,
+    "advancedNewFile.convenienceOptions": [
+        "last",
+        "current",
+        "root"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+}
